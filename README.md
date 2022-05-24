@@ -22,3 +22,15 @@ e.g. Special:Search_fr.wikipedia.org_all-access_all-agents is written in French 
 For example, consider Barack Obama's wikipedia page:
 * Barack_Obama_en.wikipedia.org_desktop_all-agents : these visits came from desktop devices.
 * Barack_Obama_en.wikipedia.org_mobile-web_all-agents: these visits came from mobile devices.
+
+
+# [Project 2: Introduction to SQL with DataCamp](http://localhost:8888/notebooks/Desktop/Adunni%20Data/Project%20Notebook%20Codes/project/Introduction%20to%20DataCamp%20Projects/notebook.ipynb)
+Analysing with Jupyter Notebook
+## Project Questions
+1. It's estimated that on average 256 children were born every minute in 2016. The code cell below calculates how many children were born on average on a day.
+2. Using the greet function, run a code to show your first_name and last_name
+3. Connect to a PostgreSQL database that has a table that contains country data, then inspect the first three rows of the table by putting %%sql ahead of the SQL commands (more on the meaning of %% later).
+4. Run a code to select the row in the countries table for Belgium
+5. Convert the SQL results in question 4 to a pandas DataFrame! Let's convert the entire countries table.
+6. Run the last query we just ran except after connecting to and querying the database using SQLAlchemy.
+7. Using the previously created pandas DataFrame that we named df, let's plot the number of countries in each continent as a bar chart using the plot() method of pandas DataFrames.
